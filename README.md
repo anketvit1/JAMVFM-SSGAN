@@ -13,7 +13,7 @@ Our approach enhances **intent detection** by incorporating:
 
 ### 📄 Paper  
 🔗 [https://link.springer.com/chapter/10.1007/978-3-031-70566-3_24]  
-
+![Paper Results](arch.png)
 ---
 
 ## 🚀 Features  
@@ -34,3 +34,33 @@ Our approach enhances **intent detection** by incorporating:
 │── 📄 train.py           # Main script for training the model  
 │── 📄 results.md         # Experimental results and findings  
 
+
+## <img src="https://cdn.jsdelivr.net/gh/LightChen233/blog-img/resource.png" width="25" /> Installation
+### System requirements
+OpenSLU requires `Python>=3.8`, and `torch>=1.12.0`.
+### Install from git
+```bash 
+git clone https://github.com/anketvit1/Few-shot-PLM.git && cd Few-shot-PLM/
+pip install -r requirements.txt
+```
+## 📄 Paper Results  
+Here is a visual representation of the results from my published research paper:  
+
+![Paper Results](box-plot.png)
+![Paper Results](tsne.png)
+
+## <img src="https://cdn.jsdelivr.net/gh/LightChen233/blog-img/notes.png" width="25" /> Reference
+
+If you find this project useful for your research, please consider citing the following paper:
+
+```
+@inproceedings{kumar2024joint,
+  title={Joint-Average Mean and Variance Feature Matching (JAMVFM) Semi-supervised GAN with Additional-Objective Training Function for Intent Detection},
+  author={Kumar, Ankit and Georges, Munir},
+  booktitle={International Conference on Text, Speech, and Dialogue},
+  pages={275--287},
+  year={2024},
+  organization={Springer}
+}
+
+```
